@@ -1,0 +1,143 @@
+html
+{	
+	background : #F5F5DC url(Entete.jpg) no-repeat scroll;
+	background-size : 100% 314px;
+	cursor : default;
+	font-family: montserrat, sans-serif;
+}
+header
+{
+	font-size : 200%;
+	text-align : center;
+}
+nav
+{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	background-color: #81CD4D;
+	position: relative;
+	left:0px;
+	top: 95px;
+}
+nav ul
+{
+	list-style-type: none;
+}
+nav ul li
+{
+	height: auto;
+	width: 20%;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:;
+	padding: 0;
+	margin: 0;
+	background-color: #81CD4D;
+}
+nav ul::after
+{
+	content:"";
+	display: table;
+	clear: both;
+}
+nav a
+{
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 5px solid transparent;
+	padding: 10px 0px;
+}
+nav a:hover
+{
+	color: #004600;
+	border-bottom: 5px solid #004600;
+}
+.sous
+{
+	display: none;
+	box-shadow: 0px 1px 2px #CCC;
+}
+nav > ul li:hover .sous
+{
+	display: block;
+}
+.sous li
+{
+	float: none;
+	width: 100%;
+	text-align: left;
+}
+.sous a
+{
+	padding: 10px;
+	border-bottom: none;
+}
+.sous a:hover
+{
+	border-bottom: none;
+	background-color: RGBa(200,200,200,0.5);
+}
+.sous
+{
+	display: none;
+	box-shadow: 0px 1px 2px #CCC;
+	background-color: #004600;
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+nav ul li
+{
+	float: left;
+	width: 20%;
+	text-align: center;
+	position: relative;
+}
+section
+{
+	position : relative;
+	text-align : center;
+	top: 100px;
+}
+p
+{
+	font-size: 120%;
+}
+section h1
+{
+	font-size: 200%;
+}
+.contact
+{
+	font-size: 80%;
+}
+figure
+{
+	position : relative;
+	text-align : center;
+	top: 75px;
+}
+table
+{
+	border: medium solid #004600;
+	border-collapse: collapse;
+	width: 100%;
+}
+th
+{
+	border: thin solid #004600;
+	width: 11%;
+	padding: 5px;
+	background-color: #81CD4D;
+}
+td
+{
+	border: thin solid #004600;
+	width: 10%;
+	padding: 5px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
